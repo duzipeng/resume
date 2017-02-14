@@ -14,6 +14,7 @@ window.onload = function () {
     canvas.width = WINDOW_WIDTH;
     canvas.height = WINDOW_HEIGHT;
 
+
     render(context);
 }
 
