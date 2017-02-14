@@ -1,0 +1,234 @@
+/* line 2, ../../../UI_dev/project/main3.scss */
+.comWidth {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/* line 3, ../../../UI_dev/project/main3.scss */
+.leftArea {
+  float: left;
+}
+
+/* line 4, ../../../UI_dev/project/main3.scss */
+.rightArea {
+  float: right;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/example3-fonts/icomoon.eot");
+  src: url("fonts/example3-fonts/icomoon.eot?") format("embedded-opentype"), url("fonts/example3-fonts/icomoon.woff") format("woff"), url("fonts/example3-fonts/icomoon.ttf") format("truetype"), url("fonts/example3-fonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 16, ../../../UI_dev/project/main3.scss */
+.icon {
+  font-family: "icomoon";
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 23, ../../../UI_dev/project/main3.scss */
+.icon-asterisk:before {
+  content: "\f069";
+}
+
+/* line 26, ../../../UI_dev/project/main3.scss */
+.icon-user:before {
+  content: "\f007";
+}
+
+/* line 29, ../../../UI_dev/project/main3.scss */
+.icon-lock:before {
+  content: "\f023";
+}
+
+/* line 32, ../../../UI_dev/project/main3.scss */
+.icon-exclamation-circle:before {
+  content: "\f06a";
+}
+
+/* line 35, ../../../UI_dev/project/main3.scss */
+.icon-unlock:before {
+  content: "\f09c";
+}
+
+/* line 38, ../../../UI_dev/project/main3.scss */
+.icon-caret-down:before {
+  content: "\f0d7";
+}
+
+/* line 41, ../../../UI_dev/project/main3.scss */
+.icon-caret-up:before {
+  content: "\f0d8";
+}
+
+/* line 44, ../../../UI_dev/project/main3.scss */
+.icon-caret-left:before {
+  content: "\f0d9";
+}
+
+/* line 47, ../../../UI_dev/project/main3.scss */
+.icon-caret-right:before {
+  content: "\f0da";
+}
+
+/* line 50, ../../../UI_dev/project/main3.scss */
+.icon-angle-double-left:before {
+  content: "\f100";
+}
+
+/* line 53, ../../../UI_dev/project/main3.scss */
+.icon-angle-double-right:before {
+  content: "\f101";
+}
+
+/* line 56, ../../../UI_dev/project/main3.scss */
+.icon-angle-double-up:before {
+  content: "\f102";
+}
+
+/* line 59, ../../../UI_dev/project/main3.scss */
+.icon-angle-double-down:before {
+  content: "\f103";
+}
+
+/* line 62, ../../../UI_dev/project/main3.scss */
+.icon-angle-left:before {
+  content: "\f104";
+}
+
+/* line 65, ../../../UI_dev/project/main3.scss */
+.icon-angle-right:before {
+  content: "\f105";
+}
+
+/* line 68, ../../../UI_dev/project/main3.scss */
+.icon-angle-up:before {
+  content: "\f106";
+}
+
+/* line 71, ../../../UI_dev/project/main3.scss */
+.icon-angle-down:before {
+  content: "\f107";
+}
+
+/* line 74, ../../../UI_dev/project/main3.scss */
+.icon-unlock-alt:before {
+  content: "\f13e";
+}
+
+/* line 77, ../../../UI_dev/project/main3.scss */
+.icon-commenting:before {
+  content: "\f27a";
+}
+
+/* line 80, ../../../UI_dev/project/main3.scss */
+.icon-commenting-o:before {
+  content: "\f27b";
+}
+
+/* line 83, ../../../UI_dev/project/main3.scss */
+.icon-user-circle:before {
+  content: "\f2bd";
+}
+
+/* line 86, ../../../UI_dev/project/main3.scss */
+.icon-user-circle-o:before {
+  content: "\f2be";
+}
+
+/* line 89, ../../../UI_dev/project/main3.scss */
+.icon-user-o:before {
+  content: "\f2c0";
+}
+
+/* line 92, ../../../UI_dev/project/main3.scss */
+.icon-lock2:before {
+  content: "\e897";
+}
+
+/* line 95, ../../../UI_dev/project/main3.scss */
+.icon-lock_open:before {
+  content: "\e898";
+}
+
+/* line 98, ../../../UI_dev/project/main3.scss */
+.icon-lock_outline:before {
+  content: "\e899";
+}
+
+/* line 101, ../../../UI_dev/project/main3.scss */
+.icon-play_circle_filled:before {
+  content: "\e038";
+}
+
+/* line 104, ../../../UI_dev/project/main3.scss */
+.icon-play_circle_outline:before {
+  content: "\e039";
+}
+
+/* line 107, ../../../UI_dev/project/main3.scss */
+.icon-slideshow:before {
+  content: "\e41b";
+}
+
+/* line 110, ../../../UI_dev/project/main3.scss */
+.icon-cart:before {
+  content: "\e93a";
+}
+
+/* line 113, ../../../UI_dev/project/main3.scss */
+.icon-star-half:before {
+  content: "\e9d8";
+}
+
+/* line 116, ../../../UI_dev/project/main3.scss */
+.icon-star-full:before {
+  content: "\e9d9";
+}
+
+/* line 119, ../../../UI_dev/project/main3.scss */
+.icon-play3:before {
+  content: "\ea1c";
+}
+
+/*topBar*/
+/* line 124, ../../../UI_dev/project/main3.scss */
+.topBar {
+  height: 31px;
+  background-color: #f7f7f7;
+  line-height: 31px;
+  color: #656565;
+}
+
+/* line 125, ../../../UI_dev/project/main3.scss */
+.collection {
+  font-weight: bold;
+}
+
+/* line 126, ../../../UI_dev/project/main3.scss */
+.collection > .icon-star-full {
+  color: #FFD24D;
+  padding-right: 5px;
+}
+
+/* line 127, ../../../UI_dev/project/main3.scss */
+.topBar a:hover {
+  color: red;
+}
+
+/*logo*/
+/* line 130, ../../../UI_dev/project/main3.scss */
+.logoBar {
+  height: 85px;
+  background-color: #1d7ad9;
+}
+
+/* line 131, ../../../UI_dev/project/main3.scss */
+.logo {
+  padding-left: 41px;
+  padding-top: 13px;
+}

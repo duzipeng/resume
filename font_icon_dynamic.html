@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>font+HTML在网页中画小图标</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/font_icon_dynamic.css" />
+</head>
+<body>
+<div class="wrapper">
+    <ul class="layout">
+        <li><i class="icon icon-like shadow"></i></li>
+        <li><i class="icon icon-spinner9 spinner"></i></li>
+        <li><i class="icon icon-heart love"></i></li>
+    </ul>
+</div>
+<script src="../public/style/js/jquery-3.1.1.min.js"></script>
+<script>
+    $(".love").on("click", function () {
+        var $this = $(this);
+        $this.addClass("btn-activated");
+        setTimeout(function () {
+            $this.removeClass("btn-activated");
+        }, 500)
+    })
+</script>
+</body>
+</html>

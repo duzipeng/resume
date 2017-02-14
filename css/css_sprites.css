@@ -1,0 +1,56 @@
+/* line 1, ../../../UI_dev/project/main1.scss */
+.sprite {
+  width: 200px;
+  background-color: #b70606;
+  margin: 10px auto;
+  border: 1px solid #9e0808;
+}
+
+/* line 8, ../../../UI_dev/project/main1.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, ../../../UI_dev/project/main1.scss */
+li {
+  list-style: none;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+
+/* line 20, ../../../UI_dev/project/main1.scss */
+li:not(:last-child) {
+  border-bottom: 1px solid #9e0808;
+}
+
+/* line 24, ../../../UI_dev/project/main1.scss */
+.sprite ul li s {
+  height: 40px;
+  width: 24px;
+  display: block;
+  margin: 0 10px;
+  float: left;
+  background-image: url("imgs/s-icon.png");
+}
+
+/* line 33, ../../../UI_dev/project/main1.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  line-height: 40px;
+}
+
+/* line 41, ../../../UI_dev/project/main1.scss */
+li:hover {
+  background-color: #fff;
+  color: #b70606;
+}
+
+/* line 46, ../../../UI_dev/project/main1.scss */
+li:hover a {
+  color: #b70606;
+}
