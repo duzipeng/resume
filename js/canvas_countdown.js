@@ -6,7 +6,7 @@ var WINDOW_HEIGHT = 768;
 var RADIUS = 8;
 var MARGIN_TOP = 60;
 var MARGIN_LEFT = 30;
-const endTime = new Date(2017, 1, 15, 23, 0, 0);
+const endTime = new Date(2017, 1, 17, 24, 0, 0);
 var curShowTimeSeconds = 0;
 
 var balls = [];
