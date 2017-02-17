@@ -1,3 +1,4 @@
+#canvas-clock {margin: 50px 0 20px 0;}
 .clearfix:after{
   content: '';
   display: block;
@@ -67,22 +68,22 @@ button{
   padding: 10px;
 }
 
-.main-button{
-  padding: 14px 28px;
-  font-size: 20px;
-  letter-spacing: 4px;
-  border-radius: 6px;
-  background-color: #18a;
-}
+/*.main-button{*/
+  /*padding: 14px 28px;*/
+  /*font-size: 20px;*/
+  /*letter-spacing: 4px;*/
+  /*border-radius: 6px;*/
+  /*background-color: #18a;*/
+/*}*/
 
 #banner .inner .more{
-  margin-top: 250px;
+  margin-top: 120px;
   color: white;
 }
 
 .sub-heading{
   line-height: 30px;
-  margin: 30px 0;
+  margin: 20px 0;
   color: white;
   font-size: 18px;
 }
@@ -173,6 +174,10 @@ p{
   width: 55%;
 }
 
+#education-experience ~ p{
+  margin: 8px 0 0 0;
+}
+
 .article-preview > div{
   float: left;
   font-size: 0;
@@ -190,12 +195,12 @@ p{
 
 .text-section{
   position: relative;
-  top: 68px;
+  top: 50px;
   left: 50px;
 }
 
 .text-section h2{
-  margin-bottom: 20px;
+  margin: 15px 0;
 }
 
 .text-section .sub-heading{
@@ -285,7 +290,7 @@ ul.share-group{
   padding-bottom: 20px;
 }
 
-.main-wrapper{
+.index-wrapper{
   background: #444 url("imgs/banner.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;

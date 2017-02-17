@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <title>扁平化风格博客</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="css/my_blog.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/my-font-icon.css" />
 </head>
 <body>
-<div class="main-wrapper">
+<div class="index-wrapper">
     <header>
         <nav>
-            <div class="logo"><a href="#">我的博客</a></div>
+            <div class="logo"><a href="index.html">我的博客</a></div>
             <ul>
                 <li><a href="canvas_clock.html">canvas时钟</a></li>
                 <li><a href="canvas_countdown.html">canvas倒计时</a></li>
@@ -22,20 +22,17 @@
         <div id="banner">
             <div class="inner">
                 <h1>杜梓鹏</h1>
-                <p class="sub-heading">多数人都拥有自己不了解的能力和机会,都有可能做到未曾梦想的事情.</p>
-                <button class="main-button">宣宣</button>
+                <canvas id="canvas-clock" width="200px" height="200px"></canvas>
+                <!--<button class="main-button">宣宣</button>-->
                 <div class="more"><p id="text-more">更多</p><i class="icon icon-angle-double-down"></i></div>
             </div>
         </div>
-
-
-
     </header>
     <div class="content">
         <section class="green-section">
             <div class="wrapper">
                 <div>
-                    <h2>一个标题</h2>
+                    <h2>教育经历</h2>
                     <div class="hr"></div>
                     <p class="sub-heading">I’ll think of you every step of the way.</p>
                 </div>
@@ -50,9 +47,12 @@
             <div class="article-preview">
                 <div class="img-section"><img src="css/imgs/pic01.jpg" alt=""></div>
                 <div class="text-section">
-                    <h2>有一个标题</h2>
-                    <div class="sub-heading">我是副标题</div>
-                    <p>Sometimes people come into your life and you know right away that they were meant to be there, they serve some sort of purpose, to teach you a lesson or help figure out who you are or who you want to become</p>
+                    <h2>教育经历</h2>
+                    <div class="sub-heading" id="education-experience">湖南科技大学 &nbsp;&nbsp;&nbsp; 2010/09 - 2014/06</div>
+                    <p><i class="icon icon-angle-double-right"></i>&nbsp;2010—2011 学年度院级“优秀共青团干部”</p>
+                    <p><i class="icon icon-angle-double-right"></i>&nbsp;2010—2011 学年度院级“优秀学生”</p>
+                    <p><i class="icon icon-angle-double-right"></i>&nbsp;2011 年度湖南科技大学“优秀共青团员”</p>
+                    <p><i class="icon icon-angle-double-right"></i>&nbsp;计算机二级、CET4、会计从业资格证书、机动车驾驶证</p>
                 </div>
             </div>
             <div class="article-preview">
@@ -139,5 +139,6 @@
         </div>
     </footer>
 </div>
+<script type="text/javascript" src="js/canvas_clock.js"></script>
 </body>
 </html>
