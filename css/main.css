@@ -68,14 +68,6 @@ button{
   padding: 10px;
 }
 
-/*.main-button{*/
-  /*padding: 14px 28px;*/
-  /*font-size: 20px;*/
-  /*letter-spacing: 4px;*/
-  /*border-radius: 6px;*/
-  /*background-color: #18a;*/
-/*}*/
-
 #banner .inner .more{
   margin-top: 120px;
   color: white;
@@ -118,8 +110,9 @@ h2{
   font-size: 30px;
 }
 
-h3{
-  font-size: 24px;
+.card h3{
+  font-size: 22px;
+  margin-top: 10px;
 }
 
 p{
@@ -132,6 +125,11 @@ p{
   background-color: #089db0;
   color: #fff;
   padding: 100px 0;
+}
+
+.gray-section h2:nth-child(odd) {
+  margin-top: 0;
+  padding-top: 30px;
 }
 
 .green-section .hr{
@@ -166,55 +164,39 @@ p{
   width: 45%;
 }
 
+.img-section:nth-child(odd){
+  margin-right: 50px;
+}
+
+.l-float {
+  float: left;
+}
+
 .img-section img{
   width: 100%;
 }
 
-.gray-section .text-section{
-  width: 55%;
-}
-
-#education-experience ~ p{
+.content-validity ~ p{
   margin: 8px 0 0 0;
-}
-
-.article-preview > div{
-  float: left;
-  font-size: 0;
 }
 
 .article-preview:nth-child(odd){
   background-color: rgba(200, 255, 255, 0.05);
 }
 
+.article-preview:nth-child(even) .img-section{
+  margin: 0 0 0 50px;
+  float: right;
+}
+
+.article-preview:nth-child(even) .text-section{
+  margin-left: 50px;
+}
+
 .article-preview:after{
   content: '';
   display: block;
   clear: both;
-}
-
-.text-section{
-  position: relative;
-  top: 50px;
-  left: 50px;
-}
-
-.text-section h2{
-  margin: 15px 0;
-}
-
-.text-section .sub-heading{
-  font-size: 20px;
-  margin: 0;
-}
-
-.text-section p{
-  font-size: 18px;
-  letter-spacing: 1px;
-}
-
-.text-section > *{
-  max-width: 90%;
 }
 
 .purple-section{
@@ -235,8 +217,10 @@ p{
 .card{
   float: left;
   width: 50%;
-  min-height: 300px;
-  padding: 50px;
+  min-height: 350px;
+  /*height: 300px;*/
+  /*overflow: auto;*/
+  padding: 30px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -291,6 +275,9 @@ ul.share-group{
 }
 
 .index-wrapper{
+  margin: 0 auto;
+  min-width: 1260px;
+  max-width: 1260px;
   background: #444 url("imgs/banner.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
