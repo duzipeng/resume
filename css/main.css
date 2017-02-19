@@ -1,3 +1,6 @@
+p{
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;;
+}
 #canvas-clock {margin: 50px 0 20px 0;}
 .clearfix:after{
   content: '';

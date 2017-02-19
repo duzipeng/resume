@@ -1,7 +1,7 @@
 /**
  * Created by duzipeng on 17/2/12.
  */
-var WINDOW_WIDTH = 1024;
+var WINDOW_WIDTH = 1260;
 var WINDOW_HEIGHT = 768;
 var RADIUS = 8;
 var MARGIN_TOP = 60;
