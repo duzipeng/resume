@@ -1,7 +1,7 @@
 /**
  * Created by duzipeng on 17/2/12.
  */
-var WINDOW_WIDTH = 1260;
+var WINDOW_WIDTH = 1024;
 var WINDOW_HEIGHT = 768;
 var RADIUS = 8;
 var MARGIN_TOP = 60;
@@ -13,6 +13,11 @@ var balls = [];
 const colors = ["#33b5e5", "#0099cc", "#aa66cc", "#9933cc", "#99cc00", "#669900", "#ffbb33", "#ff8800", "#ff4444", "#cc0000"];
 
 window.onload = function () {
+    WINDOW_WIDTH = document.body.clientWidth;
+    WINDOW_HEIGHT = document.documentElement.clientHeight ;
+    MARGIN_LEFT = Math.round(WINDOW_WIDTH/10);
+    RADIUS = Math.round(WINDOW_WIDTH * 4 / 5 / 108) - 1;
+    MARGIN_TOP = Math.round(WINDOW_HEIGHT / 5);
     var canvas = document.getElementById('canvas');
     var context = canvas.getContext('2d');
     canvas.width = WINDOW_WIDTH;
