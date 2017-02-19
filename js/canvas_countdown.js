@@ -108,7 +108,7 @@ function addBalls(x, y, num) {
                     y: y+i*2*(RADIUS+1)+(RADIUS+1),
                     g: 1.5+Math.random(),
                     vx: Math.pow(-1, Math.ceil(Math.random()*1000)) * 8,
-                    vy: -10,
+                    vy: -5,
                     color: colors[Math.floor(Math.random()*colors.length)]
                 };
                 balls.push(aBall);

@@ -29,8 +29,8 @@
       <file leaf-file-name="canvas_countdown.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/canvas_countdown.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="775">
+              <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
               <folding>
                 <element signature="e#0#42#0" expanded="false" />
               </folding>
@@ -308,7 +308,7 @@
       <workItem from="1487170572982" duration="2416000" />
       <workItem from="1487327549106" duration="10881000" />
       <workItem from="1487382068497" duration="15732000" />
-      <workItem from="1487476067954" duration="14110000" />
+      <workItem from="1487476067954" duration="14185000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1487033535273</created>
@@ -401,11 +401,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487514025636</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="变更加速度">
+      <created>1487514272825</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1487514272825</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80476000" />
+    <option name="totallyTimeSpent" value="80551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-204" y="23" width="1657" height="1057" extended-state="0" />
@@ -467,7 +474,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="教育经历" />
     <MESSAGE value="banner图片更换" />
-    <option name="LAST_COMMIT_MESSAGE" value="banner图片更换" />
+    <MESSAGE value="变更加速度" />
+    <option name="LAST_COMMIT_MESSAGE" value="变更加速度" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1053,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/canvas_countdown.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="775">
+          <caret line="116" column="5" selection-start-line="116" selection-start-column="5" selection-end-line="116" selection-end-column="5" />
           <folding>
             <element signature="e#0#42#0" expanded="false" />
           </folding>
