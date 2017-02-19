@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feb5f806-d75b-47f3-88f5-d70df3244d3f" name="Default" comment="banner图片更换">
+    <list default="true" id="feb5f806-d75b-47f3-88f5-d70df3244d3f" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/canvas_countdown.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/imgs/banner.jpg" afterPath="$PROJECT_DIR$/css/imgs/banner.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -134,7 +134,7 @@
       <file leaf-file-name="canvas_clock.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/canvas_clock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="186">
               <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
               <folding />
             </state>
@@ -411,7 +411,7 @@
       <workItem from="1487170572982" duration="2416000" />
       <workItem from="1487327549106" duration="10881000" />
       <workItem from="1487382068497" duration="15732000" />
-      <workItem from="1487476067954" duration="1040000" />
+      <workItem from="1487476067954" duration="1136000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1487033535273</created>
@@ -469,11 +469,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487404297008</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="banner图片更换">
+      <created>1487477179438</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1487477179438</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67406000" />
+    <option name="totallyTimeSpent" value="67502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1914" height="1118" extended-state="0" />
@@ -1186,7 +1193,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/canvas_clock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
+        <state relative-caret-position="186">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding />
         </state>
