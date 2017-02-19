@@ -14,11 +14,11 @@ var balls = [];
 const colors = ["#33b5e5", "#0099cc", "#aa66cc", "#9933cc", "#99cc00", "#669900", "#ffbb33", "#ff8800", "#ff4444", "#cc0000"];
 
 window.onload = function () {
-    WINDOW_WIDTH = document.documentElement.clientWidth;
-    WINDOW_HEIGHT = document.documentElement.clientHeight;
-    MARGIN_LEFT = Math.round(WINDOW_WIDTH/10);
-    RADIUS = Math.round(WINDOW_WIDTH * 4 / 5 / 108) - 1;
-    MARGIN_TOP = Math.round(WINDOW_HEIGHT / 5);
+    // WINDOW_WIDTH = document.documentElement.clientWidth;
+    // WINDOW_HEIGHT = document.documentElement.clientHeight;
+    // MARGIN_LEFT = Math.round(WINDOW_WIDTH/10);
+    // RADIUS = Math.round(WINDOW_WIDTH * 4 / 5 / 108) - 1;
+    // MARGIN_TOP = Math.round(WINDOW_HEIGHT / 5);
     var canvas = document.getElementById('canvas');
     var context = canvas.getContext('2d');
     canvas.width = WINDOW_WIDTH;
@@ -107,7 +107,7 @@ function addBalls(x, y, num) {
                     x: x+j*2*(RADIUS+1)+(RADIUS+1),
                     y: y+i*2*(RADIUS+1)+(RADIUS+1),
                     g: 1.5+Math.random(),
-                    vx: Math.pow(-1, Math.ceil(Math.random()*1000)) * 10,
+                    vx: Math.pow(-1, Math.ceil(Math.random()*1000)) * 5,
                     vy: -5,
                     color: colors[Math.floor(Math.random()*colors.length)]
                 };
