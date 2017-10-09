@@ -149,8 +149,18 @@ p{
   margin: 20px;
 }
 
+.green-section .icon-group .icon .certificate-name{
+  position: absolute;
+  top:29px;
+  right: 0px;
+  float: left;
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  transform: rotate(-45deg);
+}
 .icon-group{
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .wrapper{
@@ -282,8 +292,8 @@ ul.share-group{
 }
 
 .index-wrapper{
-  /*margin: 0 auto;*/
-  /*min-width: 1260px;*/
+  margin: 0 auto;
+  min-width: 1168px;
   /*max-width: 1260px;*/
   background: #444 url("imgs/banner.jpg");
   background-attachment: fixed;
